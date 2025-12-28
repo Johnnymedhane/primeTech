@@ -2,21 +2,21 @@ import { BASE_URL } from "../constant";
 
 
 export async function fetchProjects() {
-  const response = await fetch(`${BASE_URL}/projects`);
+  const response = await fetch(`${BASE_URL}`);
   if (!response.ok) 
     throw new Error("Failed to fetch projects");
   
   const data = await response.json();
-  return data;
+  return data.projects;
 }
 
 export async function fetchProjectById(projectId) {
-  const response = await fetch(`${BASE_URL}/projects/${projectId}`);
+  const response = await fetch(`${BASE_URL}`);
   if (!response.ok) 
     throw new Error("Failed to fetch project");
   
   const data = await response.json();
-  return data;
+  return data.projects.find(project => project.id === projectId);
 }
 
 

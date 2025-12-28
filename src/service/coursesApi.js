@@ -1,23 +1,23 @@
 import { BASE_URL } from "../constant";
 
 export async function fetchCourses() {
-  const res = await fetch(`${BASE_URL}/courses`);
+  const res = await fetch(`${BASE_URL}`);
 
   if (!res.ok) throw new Error("Failed to fetch courses");
 
   const data = await res.json();
 
-  return data;
+  return data.courses;
 }
 
 export async function fetchCourseById(courseId) {
-  const res = await fetch(`${BASE_URL}/courses/${courseId}`);
+  const res = await fetch(`${BASE_URL}`);
 
   if (!res.ok) throw new Error("Failed to fetch course");
 
   const data = await res.json();
 
-  return data;
+  return data.courses.find(course => course.id === courseId);
 }
 
 export async function addNewCourse(course) {
