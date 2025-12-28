@@ -1,0 +1,40 @@
+
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+ margin: auto;
+}
+
+.spinnerContainer.medium .loader {
+  width: 50px;
+  margin: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid var(--color-brand-500);
+  border-top-color: transparent;
+  animation: spinner 1s linear infinite;
+   
+}
+.spinnerContainer.small .loader {
+  width: 30px;
+  border-width: 5px;
+}
+.spinnerContainer.large .loader {
+  width: 80px;
+  border-width: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+

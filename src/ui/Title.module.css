@@ -1,0 +1,42 @@
+.titleContainer {
+  position: relative;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5rem 0;
+}
+
+.title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--color-brand-500);
+  text-transform: capitalize;
+
+  position: relative;
+  text-align: center;
+  font-family: var(--font-poppins);
+}
+.title span {
+ 
+ color: var(--color-brand-300);
+}
+
+.titleContainer span {
+  flex: 1;
+  height: 0.2rem;
+  transform: translateY(-50%);
+  
+}
+.titleContainer .lineLeft {
+  background-image: linear-gradient(to left, var(--color-grey-100), var(--color-grey-200));
+  margin-right: 1rem;
+}
+
+.titleContainer .lineRight {
+  background-image: linear-gradient(to right, var(--color-grey-200), var(--color-grey-100));
+  margin-left: 1rem;
+}
+
+

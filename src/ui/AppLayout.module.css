@@ -1,0 +1,38 @@
+
+ .appContainer {
+  position: relative;
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+   background: var(--color-grey-0);
+   height: 100vh;
+ }
+
+.mainContent {
+ overflow-y: auto;
+ width: 100%;
+
+}
+.contentWrapper {
+  max-width: 1800px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .appContainer,
+  .contentWrapper,
+  .mainContent {
+    width: 100vw;
+    max-width: 100vw;
+  }
+  
+}
+
+@media (max-width: 480px) {
+ 
+  
+  .mainContent{
+    margin-bottom: 1rem;
+  }
+}

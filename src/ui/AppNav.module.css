@@ -1,0 +1,138 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.nav ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.nav ul li a {
+  font-weight: 500;
+  font-size: var(--text-lg);
+  transition: color 0.3s ease;
+  color: var(--color-grey-600);
+  font-family: var(--font-inter);
+}
+
+.nav ul li a:global(.active) {
+  font-weight: 600;
+}
+/* header navigation */
+.headerNav ul button {
+/* margin-top: 1rem; */
+}
+
+.headerNav ul li :global(a.active)::after {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 3px;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 5px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-brand-50),
+    var(--color-brand-100)
+  );
+}
+
+.headerNav ul li a:hover {
+  color: var(--color-grey-400);
+}
+
+/* footer navigation  */
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerNav ul li a {
+  color: var(--color-grey-200);
+}
+.footerNav ul li a:global(.active) {
+  color: var(--color-grey-0);
+}
+.footer li a:hover {
+  color: var(--color-grey-100);
+}
+.footerNav ul li svg {
+  color: var(--color-grey-100);
+  margin-right: 0.5rem;
+}
+
+.footerNav ul li a:hover {
+  color: var(--color-grey-300);
+}
+@media screen and (max-width: 768px) {
+  .nav ul {
+    gap: 2rem;
+  }
+  .nav ul li a {
+    font-size: var(--text-md);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerNav {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 3rem ;
+    width: 50%;
+    height: 80vh;
+     margin-top: 7rem;
+     border-radius: 5px;
+     border-bottom: 2px solid var(--color-grey-200);
+    background: var(--color-grey-0);
+    transition: transform 0.3s ease;
+    box-shadow: var(--shadow-md);
+    z-index: 1000;
+    transform: translateX(-100%);
+  }
+  .navOpen {
+    transform: translateX(0%);
+  }
+  .headerNav ul {
+    flex-direction: column;
+    gap: 2rem;
+   width: 100%;
+    height: 100%;
+    justify-content: space-around;
+   
+   
+  }
+  .headerNav ul  li {
+    width: 100%;
+    text-align: center;
+    transition: background 0.3s ease;
+  
+    
+  }
+  .headerNav ul li:hover {
+    background: var(--color-grey-100);
+  }
+  .headerNav ul button {
+   /* transform: translateY(-3rem); */
+    order: -1;
+  }
+
+  .headerNav ul li a {
+    display: block;
+    font-size: var(--text-xl);
+    color: var(--color-grey-800);
+    width: 100%;
+  }
+  .headerNav ul li a:global(.active) {
+  color: var(--color-brand-100);
+  background: var(--color-grey-100);
+}
+ 
+}
