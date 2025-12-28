@@ -1,11 +1,20 @@
-# React + Vite
+# PrimeTech 🚀
 
+PrimeTech is a modern, responsive frontend web application built with **React** and **Vite**.  
+The project showcases a clean UI, component-based architecture, and mobile-first design.
 
+## ✨ Features
+- Responsive layout (desktop & mobile)
+- Modern navigation with animated mobile menu
+- Reusable UI components
+- Client-side routing with React Router
+- Clean and maintainable code structure
+- Optimized production build with Vite
 
-## React Compiler
+## 🛠 Tech Stack
+- **React**
+- **Vite**
+- **React Router**
+- **CSS Modules**
+- **JavaScript (ES6+)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
