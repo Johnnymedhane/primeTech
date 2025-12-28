@@ -8,7 +8,7 @@
     "server": "json-server --watch src/data/db.json --port 5000",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --host"
+    "preview": "vite preview --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
