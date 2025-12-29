@@ -1,0 +1,1 @@
+import{j as o}from"./index-PWL56er2.js";import{H as s,W as r}from"./Hero-C22BDGvd.js";import{u as t}from"./usePageTitle-Cz95wJeM.js";import"./index-DdGmE3BE.js";import"./Button-Dbavt2Mx.js";function p(){return t("About Us"),o.jsxs(o.Fragment,{children:[o.jsx(s,{}),o.jsx(r,{})]})}export{p as default};
