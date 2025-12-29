@@ -1,0 +1,1 @@
+import{u as f,t as y,a as r,r as E}from"./index-BJQlpIoG.js";function h(n,u,e,c,a,o){const s=f(),t=y()[n],i=r(u),p=r(e),m=r(c);return E.useEffect(()=>(t&&s(o(t)),()=>{s(a())}),[t,s,o,a]),{entity:i,status:p,error:m}}export{h as u};
