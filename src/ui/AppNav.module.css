@@ -21,15 +21,12 @@
 .nav ul li a:global(.active) {
   font-weight: 600;
 }
-/* header navigation */
-.headerNav ul button {
-/* margin-top: 1rem; */
-}
+
 
 .headerNav ul li :global(a.active)::after {
   content: "";
   display: block;
-  width: 70%;
+  width: 60%;
   height: 3px;
   border-radius: 2px;
   margin: auto;
@@ -85,15 +82,15 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0 3rem ;
-    width: 50%;
-    height: 80vh;
-     margin-top: 7rem;
-     border-radius: 5px;
-     border-bottom: 2px solid var(--color-grey-200);
+    padding: 3rem 0;
+    width: 100%;
+    height: 60vh;
+    margin-top: 7rem;
+    border-radius: 5px;
+    border-bottom: 2px solid var(--color-grey-300);
     background: var(--color-grey-0);
-    transition: transform 0.3s ease;
-    box-shadow: var(--shadow-md);
+    transition: transform 0.5s ease;
+    box-shadow: var(--shadow-lg);
     z-index: 1000;
     transform: translateX(-100%);
   }
@@ -103,36 +100,35 @@
   .headerNav ul {
     flex-direction: column;
     gap: 2rem;
-   width: 100%;
+    width: 100%;
     height: 100%;
     justify-content: space-around;
-   
-   
   }
-  .headerNav ul  li {
+  .headerNav ul li {
     width: 100%;
     text-align: center;
-    transition: background 0.3s ease;
-  
-    
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
+   
   }
   .headerNav ul li:hover {
     background: var(--color-grey-100);
   }
   .headerNav ul button {
-   /* transform: translateY(-3rem); */
     order: -1;
   }
 
   .headerNav ul li a {
     display: block;
     font-size: var(--text-xl);
-    color: var(--color-grey-800);
+    color: var(--color-grey-700);
     width: 100%;
   }
+  .headerNav ul li :global(a.active)::after {
+    display: none;
+  }
   .headerNav ul li a:global(.active) {
-  color: var(--color-brand-100);
-  background: var(--color-grey-100);
-}
- 
+    color: var(--color-grey-800);
+    background: var(--color-grey-100);
+  }
 }

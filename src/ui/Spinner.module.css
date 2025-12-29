@@ -20,7 +20,9 @@
 }
 .spinnerContainer.small .loader {
   width: 30px;
+  height: 30px;
   border-width: 5px;
+ margin: auto;
 }
 .spinnerContainer.large .loader {
   width: 80px;

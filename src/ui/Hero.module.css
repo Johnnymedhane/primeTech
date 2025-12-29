@@ -42,15 +42,18 @@
   margin-bottom: 1rem 0 2rem ;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+}
+.actions button{
+  border-radius: 0;
 }
 .content .actions p {
-  font-size: var(--text-lg);
+  font-size: var(--text-md);
   color: var(--color-grey-0);
   font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  background: var(--color-brand-900);
+  padding:  1rem 0.5rem;
+  border-radius: 0.2rem;
+  background: var(--color-brand-400);
   
 }
 

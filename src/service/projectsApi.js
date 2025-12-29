@@ -11,6 +11,7 @@ export async function fetchProjects() {
 }
 
 export async function fetchProjectById(projectId) {
+  // const response = await fetch(`${BASE_URL/projects/${projectId}`);
   const response = await fetch(`${BASE_URL}`);
   if (!response.ok) 
     throw new Error("Failed to fetch project");

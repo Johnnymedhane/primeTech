@@ -16,8 +16,6 @@ const ProjectDetails = lazy(() => import("./features/projects/ProjectDetails"));
 function App() {
   
 
-
-
   return (
     <BrowserRouter>
       <Toaster 

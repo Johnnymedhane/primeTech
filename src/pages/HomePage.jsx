@@ -1,5 +1,6 @@
 
 import WhyChooseUs from "../features/aboutUs/WhyChooseUs"
+import { usePageTitle } from "../hooks/usePageTitle";
 import Courses from "../features/courses/Courses"
 import Projects from "../features/projects/Projects"
 import Testimonials from "../features/testimony/Testimonials"
@@ -9,8 +10,7 @@ import Contact from "../features/contacts/Contact"
 
 
 function HomePage() {
- 
-
+  usePageTitle("Home");
   return (
     <>
     <Hero />
