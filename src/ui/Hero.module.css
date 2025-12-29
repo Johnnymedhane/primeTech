@@ -51,9 +51,9 @@
   font-size: var(--text-md);
   color: var(--color-grey-0);
   font-weight: 500;
-  padding:  1rem 0.5rem;
-  border-radius: 0.2rem;
+  padding: 1rem 1.5rem ;
   background: var(--color-brand-400);
+ 
   
 }
 
