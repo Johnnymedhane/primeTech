@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+ "homepage": "https://johnnymedhane.github.io/primeTech",
+
   "scripts": {
     "dev": "vite",
     "server": "json-server --watch src/data/db.json --port 5000",
