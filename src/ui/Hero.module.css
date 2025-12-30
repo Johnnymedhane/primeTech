@@ -1,7 +1,7 @@
 .hero {
   min-height: 60vh;
   width: 100%;
-  background-image: url("/primeTech/images/students.png");
+  background-image: url("/images/students.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
