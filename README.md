@@ -1,7 +1,7 @@
 # PrimeTech 🚀
 
 PrimeTech is a modern, responsive frontend web application built with **React** and **Vite**.  
-The project showcases a clean UI, component-based architecture, and mobile-first design.
+The project showcases a clean UI, component-based architecture.
 
 ## ✨ Features
 - Responsive layout (desktop & mobile)
