@@ -61,7 +61,7 @@
       var(--color-grey-0),
       rgba(2, 2, 2, 0.4)
     ),
-    url("images/developers.jpg");
+    url("/primeTech/images/developers.jpg");
   background-size: cover;
   background-position: center;
 }

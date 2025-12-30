@@ -1,22 +1,23 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import ListItems from "../../ui/ListItems"
+import ListItems from "../../ui/ListItems";
 import Title from "../../ui/Title.jsx";
-import styles from './Courses.module.css'
-import { getCoursesStatus, selectAllCourses, fetchCourses, getCoursesError } from "./coursesSlice.js";
+import styles from "./Courses.module.css";
+import {
+  getCoursesStatus,
+  selectAllCourses,
+  fetchCourses,
+  getCoursesError,
+} from "./coursesSlice.js";
 import Spinner from "../../ui/Spinner.jsx";
 import CardList from "../../ui/CardList.jsx";
 import { useNavigate } from "react-router-dom";
 
-
-
 function Courses() {
-
   const dispatch = useDispatch();
   const courses = useSelector(selectAllCourses);
   const coursesStatus = useSelector(getCoursesStatus);
   const error = useSelector(getCoursesError);
- 
 
   const isLoading = coursesStatus === "loading";
   const navigate = useNavigate();
@@ -27,31 +28,32 @@ function Courses() {
     }
   }, [coursesStatus, dispatch]);
 
-
-   function handleButtonClick(courseId) {
+  function handleButtonClick(courseId) {
     navigate(`/courses/${courseId}`);
     // no enough details to implement this yet
-    
- 
   }
 
+  if (isLoading) return <Spinner size="large" />;
+
   return (
-   <section className={styles.coursesSection} >
-    <Title title="Our Courses"></Title>
-   {isLoading && <Spinner />}
-   {coursesStatus === "failed" && <div>{error}</div>}
-    <div className={styles.coursesList}>
-      <ListItems 
-      data={courses} 
-      renderItem={(course) => (
-        <CardList key={course.id} 
-        cardData={course} 
-        ButtonText="View course" 
-        onButtonClick={() => handleButtonClick(course.id)} />
-      )} />
-    </div>
-   </section>
-  )
+    <section className={styles.coursesSection}>
+      <Title title="Our Courses"></Title>
+      {coursesStatus === "failed" && <div>{error}</div>}
+      <div className={styles.coursesList}>
+        <ListItems
+          data={courses}
+          renderItem={(course) => (
+            <CardList
+              key={course.id}
+              cardData={course}
+              ButtonText="View course"
+              onButtonClick={() => handleButtonClick(course.id)}
+            />
+          )}
+        />
+      </div>
+    </section>
+  );
 }
 
-export default Courses
+export default Courses;

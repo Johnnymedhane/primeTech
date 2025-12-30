@@ -20,7 +20,7 @@
 }
 
 .mainContent::-webkit-scrollbar-thumb {
-  background-color: var(--color-grey-300);
+  background-color: var(--color-grey-400);
   border-radius: 4px;
  
 }
