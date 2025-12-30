@@ -4,58 +4,52 @@
       "id": "1",
       "title": "Web Development",
       "description": "From Beginner to Pro – Build Modern Websites",
-      "image": "${process.env.PUBLIC_URL}/images/web-development.png"
+      "image": "images/web-development.png"
     },
     {
       "id": "2",
       "title": "Python Programming",
       "description": "Master the Fundamentals of Python Coding",
-      "image": "${process.env.PUBLIC_URL}/images/python.png"
+      "image": "images/python.png"
     },
     {
       "id": "3",
       "title": "App Development",
       "description": "Develop Mobile Apps from Scratch",
-      "image": "${process.env.PUBLIC_URL}/images/app-dev.jpg"
+      "image": "images/app-dev.jpg"
     },
     {
       "id": "4",
       "title": "Cyber & Information Security",
       "description": "Learn How to Protect Networks & Systems",
-      "image": "${process.env.PUBLIC_URL}/images/cyber-security.png"
+      "image": "images/cyber-security.png"
     }
   ],
   "projects": [
-    {
-      "id": "1",
-      "title": "E-Commerce Application",
-      "subtitle": "Intermediate Project - Online Store",
-      "image": "${process.env.PUBLIC_URL}/images/e-commerece-dev.jpg",
-      "description": "A full-featured e-commerce platform including product listings, cart functionality, and checkout flow."
-    },
-    {
+      {
       "id": "2",
       "title": "Platformer Game",
-      "subtitle": "Intermediate Project - Market ln",
-      "image": "${process.env.PUBLIC_URL}/images/game-dev.jpg",
+      "subtitle": "Intermediate Project - Market In",
+      "image": "images/game-dev.jpg",
       "description": "A 2D platformer game featuring character movement, obstacles, and level progression."
     },
     {
       "id": "3",
       "title": "Data Analysis Dashboard",
       "subtitle": "Intermediate Project · Data Visualization",
-      "image": "${process.env.PUBLIC_URL}/images/data-analyst.jpg",
+      "image": "images/data-analyst.jpg",
       "description": "An interactive dashboard that visualizes real-world data using charts and analytics tools."
+    },
+     {
+      "id": "1",
+      "title": "E-Commerce Application",
+      "subtitle": "Intermediate Project - Online Store",
+      "image": "images/e-commerce.png",
+      "description": "A full-featured e-commerce platform including product listings, cart functionality, and checkout flow."
     }
   ],
   "contactMessages": [
-    {
-      "id": "cb51",
-      "clientName": "johnny medhane",
-      "phone": "0539649439",
-      "email": "johnnymedhane@gmail.com",
-      "message": "test 2"
-    },
+  
     {
       "id": "6f19",
       "clientName": "johnny medhane",
@@ -63,5 +57,6 @@
       "email": "johnymedhane@gmail.com",
       "message": "tes2"
     }
+    
   ]
 }
