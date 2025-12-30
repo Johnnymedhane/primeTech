@@ -5,5 +5,5 @@ import eslint from 'vite-plugin-eslint';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), eslint()],
-  base: process.env.NODE_ENV === 'production' ? '/primeTech' : '/',
+  // base: process.env.NODE_ENV === 'production' ? '/primeTech/' : '/',
 })

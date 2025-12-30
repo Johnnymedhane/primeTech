@@ -31,6 +31,7 @@ function Map() {
           center={[cityPosition.lat, cityPosition.lng]}
           zoom={16}
           scrollWheelZoom={true}
+          key={cityPosition.lat + cityPosition.lng}
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
