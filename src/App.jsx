@@ -17,7 +17,7 @@ function App() {
   
 
   return (
-    <BrowserRouter basename="/primeTech/">
+    <BrowserRouter basename="/primeTech">
       <Toaster 
         position="top-center"
         gutter={12}

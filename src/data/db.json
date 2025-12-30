@@ -4,25 +4,25 @@
       "id": "1",
       "title": "Web Development",
       "description": "From Beginner to Pro – Build Modern Websites",
-      "image": "public/images/web-development.png"
+      "image": "images/web-development.png"
     },
     {
       "id": "2",
       "title": "Python Programming",
       "description": "Master the Fundamentals of Python Coding",
-      "image": "public/images/python.png"
+      "image": "images/python.png"
     },
     {
       "id": "3",
       "title": "App Development",
       "description": "Develop Mobile Apps from Scratch",
-      "image": "public/images/app-dev.jpg"
+      "image": "images/app-dev.jpg"
     },
     {
       "id": "4",
       "title": "Cyber & Information Security",
       "description": "Learn How to Protect Networks & Systems",
-      "image": "public/images/cyber-security.png"
+      "image": "images/cyber-security.png"
     }
   ],
   "projects": [
@@ -30,21 +30,21 @@
       "id": "2",
       "title": "Platformer Game",
       "subtitle": "Intermediate Project - Market In",
-      "image": "public/images/game-dev.jpg",
+      "image": "images/game-dev.jpg",
       "description": "A 2D platformer game featuring character movement, obstacles, and level progression."
     },
     {
       "id": "3",
       "title": "Data Analysis Dashboard",
       "subtitle": "Intermediate Project · Data Visualization",
-      "image": "public/images/data-analyst.jpg",
+      "image": "images/data-analyst.jpg",
       "description": "An interactive dashboard that visualizes real-world data using charts and analytics tools."
     },
      {
       "id": "1",
       "title": "E-Commerce Application",
       "subtitle": "Intermediate Project - Online Store",
-      "image": "public/images/e-commerce.png",
+      "image": "images/e-commerce-dev.jpg",
       "description": "A full-featured e-commerce platform including product listings, cart functionality, and checkout flow."
     }
   ],
