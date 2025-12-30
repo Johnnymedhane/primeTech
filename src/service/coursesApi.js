@@ -1,4 +1,4 @@
-import { BASE_URL } from "../constant";
+import { BASE_URL } from "../utils/constant";
 
 export async function fetchCourses() {
   const res = await fetch(`${BASE_URL}`);
