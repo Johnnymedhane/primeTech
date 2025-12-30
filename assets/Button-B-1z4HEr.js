@@ -1,1 +1,0 @@
-import{j as a}from"./index-DFiF3gh4.js";const m="_normal_ra2ni_3",s="_primary_ra2ni_41",r={normal:m,primary:s};function l({className:n,children:o,onClick:t}){return a.jsx("button",{className:`${r.normal} ${r[n]||""}`,onClick:t,children:o})}export{l as B};
