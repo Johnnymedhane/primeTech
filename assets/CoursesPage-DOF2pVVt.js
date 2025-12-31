@@ -1,1 +1,0 @@
-import{j as s}from"./index-ioWTERmn.js";import{C as r,T as o}from"./Testimonials-iIp4Jc3H.js";import{u as e}from"./usePageTitle-DAoT89lJ.js";import"./CardList-BpUHZZV2.js";import"./Button-A05iEZXu.js";function n(){return e("Courses"),s.jsxs(s.Fragment,{children:[s.jsx(r,{}),s.jsx(o,{})]})}export{n as default};
