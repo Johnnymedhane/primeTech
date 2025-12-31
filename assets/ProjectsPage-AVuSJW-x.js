@@ -1,0 +1,1 @@
+import{j as r}from"./index-8mWUxBnE.js";import{P as t}from"./Projects-cGRiB_zF.js";import{u as o}from"./usePageTitle-FfQRvfSy.js";import"./CardList-i5fp_yKk.js";import"./Button-Ck6R61e7.js";function p(){return o("Projects"),r.jsx(t,{})}export{p as default};
