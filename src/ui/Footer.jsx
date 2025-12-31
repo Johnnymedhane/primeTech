@@ -2,7 +2,7 @@ import { IoChatbubbles } from "react-icons/io5"
 import NavLinks from "./AppNav"
 import styles from './Footer.module.css'
 import { useState } from "react";
-import { PHONE_NUMBER } from "../constant";
+import { PHONE_NUMBER } from "../utils/constant";
 import { HiPhone } from "react-icons/hi";
 
 

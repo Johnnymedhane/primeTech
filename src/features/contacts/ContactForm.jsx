@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 // import { sendContactForm } from "../../service/contactApi";
 import { useState } from "react";
 import Button from "../../ui/Button";
-import { PHONE_NUMBER } from "../../constant";
+import { PHONE_NUMBER } from "../../utils/constant";
 import { HiPhone } from "react-icons/hi";
 import { RiWhatsappFill } from "react-icons/ri";
 
