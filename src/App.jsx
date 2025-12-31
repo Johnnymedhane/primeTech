@@ -16,7 +16,7 @@ const ProjectDetails = lazy(() => import("./features/projects/ProjectDetails"));
 function App() {
   
   return (
-    <BrowserRouter basename="/primeTech/">
+    <BrowserRouter basename="/primeTch/">
       <Toaster 
         position="top-center"
         gutter={12}
