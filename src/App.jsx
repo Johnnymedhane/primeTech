@@ -14,9 +14,9 @@ const CourseDetails = lazy(() => import("./features/courses/CourseDetails"));
 const ProjectDetails = lazy(() => import("./features/projects/ProjectDetails"));
 
 function App() {
-  
+const base = import.meta.env.MODE === "github" ? "/primeTech/" : "/";
   return (
-    <BrowserRouter basename="/primeTech/">
+    <BrowserRouter basename={base}>
       <Toaster 
         position="top-center"
         gutter={12}

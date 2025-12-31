@@ -9,9 +9,10 @@
     "dev": "vite",
     "server": "json-server --watch src/data/db.json --port 5000",
     "build": "vite build",
+    "build:github": "vite build --mode=github",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:github",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
