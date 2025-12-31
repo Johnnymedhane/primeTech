@@ -13,6 +13,9 @@ function Header() {
   function toggleMenu() {
     setIsMenuOpen((prev) => !prev);
   }
+  function closeMenu() {
+    setIsMenuOpen(false);
+  }
 
  
   return (
@@ -25,7 +28,8 @@ function Header() {
         <span></span>
       </button>
 
-      <NavLinks place="header" className={`${isMenuOpen ? "navOpen" : ''}`} onClick={toggleMenu}>
+      <NavLinks place="header" className={`${isMenuOpen ? "navOpen" : ''}`} onClick={toggleMenu}
+      menu={closeMenu}>
          <Button>
           <Link to="/courses">Get Started</Link></Button>
       </NavLinks>
