@@ -2,6 +2,8 @@
 
 PrimeTech is a modern, responsive frontend web application built with **React** and **Vite**.
 
+Live site: https://primete.netlify.app/
+
 ## ✨ Features
 
 - **Multi-page web application** with Home, About Us, Courses, Projects, Contact, and detailed views
@@ -24,3 +26,5 @@ PrimeTech is a modern, responsive frontend web application built with **React** 
 - **React Router**
 - **CSS Modules**
 - **JavaScript (ES6+)**
+
+
