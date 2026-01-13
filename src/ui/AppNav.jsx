@@ -6,22 +6,7 @@ import useOutsideClick from "../hooks/useOutsideClick";
 function NavLinks({ place, children, className, onClick, menu }) {
   const ref = useOutsideClick(menu)
 
-  // useEffect(() => {
-  //   if (className !== "navOpen") return;
-
-  //   function handleClick(event) {
-  //     if (ref.current && !ref.current.contains(event.target)) {
-  //       console.log("Clicked outside nav");
-  //       menu(false);
-  //     }
-  //   }
-
-  //   document.addEventListener("click", handleClick, true);
-  //   return () => {
-  //     document.removeEventListener("click", handleClick, true);
-  //   };
-  // }, [menu, className]);
-
+ 
   return (
     <nav
       className={`${style.nav} ${style[place + "Nav"]} ${

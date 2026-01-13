@@ -14,7 +14,7 @@ const ref = useRef();
     return () => {
       document.removeEventListener("click", handleClick, listenerCapture);
     };
-  }, [ callback]);
+  }, [ callback, listenerCapture ]);
 
   return ref;
 }
