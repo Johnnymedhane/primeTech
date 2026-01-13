@@ -1,0 +1,1 @@
+import{j as t}from"./index-CkBwmFTd.js";import{C as o}from"./Contact-L1KUkc0A.js";import{u as r}from"./usePageTitle-BOWA5U4G.js";import"./Button-CHaVWf5p.js";import"./index-Bwc8rduw.js";function n(){return r("Contact"),t.jsx(o,{})}export{n as default};
